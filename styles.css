@@ -1,0 +1,97 @@
+/* Basic Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #000000;
+    color: #fff;;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.7);
+}
+
+header h1 {
+    color: #ff6699;
+    font-size: 2.5rem;
+}
+
+.about, .gallery {
+    text-align: center;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    width: 80%;
+    border-radius: 8px;
+}
+
+.about h2, .gallery h2 {
+    color: #ff66cc;
+    font-size: 1.8rem;
+}
+
+.about p {
+    font-size: 1rem;
+    margin-top: 10px;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.image-gallery img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    border: 2px solid #ff66cc;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.6);
+    transition: transform 0.3s;
+    cursor: pointer;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.8);
+    color: #ff6699;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.button-section {
+    text-align: center;
+    margin: 20px;
+}
+
+.main-page-button {
+    padding: 10px 20px;
+    font-size: 1rem;
+    color: #1b1717;
+    background-color: #ff6699;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+    cursor: pointer;
+}
+
+.main-page-button:hover {
+    background-color: #8d146f;
+}
+
